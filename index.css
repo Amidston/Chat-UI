@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    width: 450px;
+    margin: 0 auto;
+    border: 4px solid #d0d0d0;
+    min-height: 400px;
+}
+
+header {
+    background-image: url(https://i.picsum.photos/id/519/320/200.jpg?blur=2&hmac=GzahMu4y6CrDdF1Aqz6VKgsZmn-3izuPBm0EDnAsg6g);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+    padding: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 2.6em;
+    font-weight: 500;
+}
+
+.chat {
+    background-color: #dde1e2;
+    overflow-y: scroll;
+    max-height: 500px;
+}
+
+.profile_photo {
+    width: 100px;
+    flex-basis: 30%;
+    border-radius: 100px;
+    border: 3px solid white;
+}
+
+.message_div {
+    margin: 10px;
+    flex-basis: 60%;
+    background-color: white;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+
+.message_section {
+    display: flex;
+    padding: 10px;
+}
+
+.message_text {
+    padding: 5px;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.my_message {
+    background-color: #d3d7d8;
+}
+
+.bottom_section {
+    text-align: center;
+    border-top: 1px solid #d3d7d8;
+}
+
+.textarea{
+    width: 85%;
+    height: 4em;
+    margin: 20px;
+    border-radius: 5px;
+    border: 2px solid #d3d7d8;
+    box-shadow: 1px 1px 3px #d3d7d8 inset;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.button {
+    width: 85%;
+    height: 2.5em;
+    color: white;
+    background-color: #2589cc;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 2px solid #2589cc;
+    margin: 20px 0 20px 0;
+}
